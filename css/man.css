@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+.header{
+    position: fixed;
+    width: 180px;
+    height: 100%;
+    left: 0;
+    background: #1b1b1b;
+
+}
+.header .side-menu{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    background: #1e1e1e;
+    letter-spacing: 1px;
+}
+section ul{
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+section ul li{
+    line-height: 40px;
+    border-bottom: 1px solid rgba(255, 255,255, 0.1);
+}
+section ul li a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+section ul li a:hover{
+    color: #009688;
+    background: #1e1e1e;
+    border-left-color: #009688;
+}
+/*nav ul{
+    position: static;
+    display: none;
+}*/
+section ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+section ul li a{
+    font-size: 16px;
+    color: #e6e6e6;
+    padding-left: 50px;
+}
+/*.item::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: cyan;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    transition: 0.5s;
+
+  }
+  .item:hover:after{
+    width: 100%;
+  }*/

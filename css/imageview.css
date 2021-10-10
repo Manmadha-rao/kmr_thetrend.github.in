@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product-small-img img{
+    height: 67px;
+    margin: 10px 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: 100px;
+    opacity: .5;
+}
+.product-small-img img:hover{
+    opacity: 1;
+
+}
+.product-small-img{
+    float: left;
+}
+.product{
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);
+    position:absolute;*/
+}
+.img-container img{
+    height: 320px;
+    padding: 10px;
+}
+.jumbtron{
+    margin-left: 500px;
+    margin-top: -300px;
+    margin-bottom: 200px;
+}
+.jumbtron h1{
+    font-size: 22px;
+}
+.jumbtron h4{
+    font-size: 14px;
+}
+.jumbtron select{
+    font-size: 15px;
+}
+.jumbtron option{
+    font-size: 12px;
+}
+.jumbtron p{
+    font-size: 14px;
+}
+.jumbtron input{
+    width: 12%;
+    height: 22px;
+    margin-left: 15px;  
+}
+#tocart{
+    width: 130px;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 20px;
+    background:#f36b6b;
+    color: #fff;
+    font-size: 14px;
+}
+.jumbtron h5{
+    margin-top: 20px;
+}
+.para{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.jumbtron #pro{
+    color: #f36b6b;
+    margin-left: 10px;
+}
+
+/* realted */
+.same{
+    display: flex;
+    flex-direction: row;
+    margin-left: 54px;
+    margin-bottom: 30px;
+}
+#vi{
+    color: black;
+    display: inline;
+    text-align: center;
+    margin-left: 500px;
+}
+#vi:hover{
+    color: #009688;
+}
+#h44{
+    margin-left: 60px;
+    
+}
+
+/* realated imag  */
+#related{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+#related img{
+    width: 100%;
+}
+#related i{
+    color:#f36b6b;
+    font-size: 14px;
+}
+#related h4{
+    font-size: 18px;
+}
+#related p{
+    font-size: 14px;
+}
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .product-small-img img{
+        height: 65px;
+        margin: 10px 5px;
+        cursor: pointer;
+        display: block;
+        margin-left: 10px;
+        opacity: .5;
+    }
+
+    .product-small-img img:hover{
+        opacity: 1;
+    
+    }
+    .product-small-img{
+        float: left;
+    }
+    .product{
+        top: 50%;
+        left: 50%;
+        /*transform: translate(-50%, -50%);
+        position:absolute;*/
+    }
+    .img-container img{
+        height: 310px;
+        padding: 10px;
+        width: 270px;
+    }
+
+    .jumbtron{
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .jumbtron h1{
+        font-size: 22px;
+    }
+    .jumbtron h4{
+        font-size: 14px;
+    }
+    .jumbtron select{
+        font-size: 15px;
+    }
+    .jumbtron option{
+        font-size: 12px;
+    }
+    .jumbtron p{
+        font-size: 14px;
+    }
+    .jumbtron input{
+        width: 12%;
+        height: 22px;
+        margin-left: 15px;  
+    }
+    #tocart{
+        width: 130px;
+        border: none;
+        cursor: pointer;
+        margin-left: 15px;
+        border-radius: 20px;
+        background:#f36b6b;
+        color: #fff;
+        font-size: 14px;
+    }
+    .jumbtron h5{
+        margin-top: 20px;
+    }
+    .para{
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    .jumbtron #pro{
+        color: #f36b6b;
+        margin-left: 10px;
+    }
+    
+    /* realted */
+    .same{
+        display: flex;
+        flex-direction: row;
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+
+    
+    #vi{
+        color: black;
+        display: inline;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    #vi:hover{
+        color: #009688;
+    }
+    #h44{
+        margin-left: 60px;
+        
+    }
+    
+    /* realated imag  */
+    #related{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #related img{
+        width: 500%;
+    } 
+
+    /*#related i{ 
+        color:#f36b6b;
+        font-size: 12px;
+        width: 500%;
+        display: flex;
+        flex-direction: row;
+    }*/
+    .rating{
+        display: flex;
+        flex-direction: row;
+    }
+    #related h4{
+        width: 500%;
+        font-size: 16px;
+    }
+    #related p{
+        font-size: 12px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .product-small-img img{
+        height: 70px;
+        margin: 10px 5px;
+        cursor: pointer;
+        display: block;
+        margin-left: 70px;
+        opacity: .5;
+    }
+    
+    .product-small-img img:hover{
+        opacity: 1;
+    
+    }
+    .product-small-img{
+        float: left;
+    }
+
+    .product{
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        position:absolute;
+    }
+    .img-container img{
+        height: 330px;
+        padding: 10px;
+    }
+    .jumbtron{
+        margin-left: 500px;
+        margin-top: -300px;
+        margin-bottom: 200px;
+    }
+    .jumbtron h1{
+        font-size: 20px;
+    }
+    .jumbtron h4{
+        font-size: 14px;
+    }
+    .jumbtron select{
+        font-size: 13px;
+    }
+    .jumbtron option{
+        font-size: 12px;
+    }
+    .jumbtron p{
+        font-size: 14px;
+    }
+    .jumbtron input{
+        width: 14%;
+        height: 20px;
+        margin-left: 10px;  
+    }
+    #tocart{
+        width: 130px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        border-radius: 20px;
+        background:#f36b6b;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .jumbtron h5{
+        margin-top: 20px;
+    }
+    .para{
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    .jumbtron #pro{
+        color: #f36b6b;
+        margin-left: 10px;
+    }
+    
+    /* realted */
+    .same{
+        display: flex;
+        flex-direction: row;
+        margin-left: 54px;
+        margin-bottom: 30px;
+    }
+    #vi{
+        color: black;
+        display: inline;
+        text-align: center;
+        margin-left: 250px;
+    }
+    
+    #vi:hover{
+        color: #009688;
+    }
+    #h44{
+        margin-left: 60px;
+        
+    }
+    
+    /* realated imag  */
+    #related{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    #related img{
+        width: 100%;
+    }
+    #related i{
+        color:#f36b6b;
+        font-size: 14px;
+    }
+    #related h4{
+        font-size: 16px;
+    }
+    #related p{
+        font-size: 13px;
+    }
+    #cont{
+        margin-top: -120px;
+    }
+
+}
